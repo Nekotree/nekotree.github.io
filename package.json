@@ -1,0 +1,21 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "Glen's Portfolio",
+    "main": "index.js",
+    "dependencies": {
+        "gh-pages": "^3.1.0",
+        "node-sass": "^4.14.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "sass": "node-sass -w scss/ -o css/ --recursive",
+        "deploy": "gh-pages -d dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Nekotree/nekotree.github.io.git"
+    },
+    "author": "Glen Larrabee",
+    "license": "MIT"
+}
